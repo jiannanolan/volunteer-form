@@ -16,6 +16,10 @@
   <div class="grid">
 
     <div class="unit">
+      <header>
+        <h1>Apply to be a tree planter</h1>
+        <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      </header>
     </div>
 
     <div class="unit">
@@ -85,7 +89,8 @@
 
           <div class="">
             <label for="province">Province</label>
-            <select id="province" name="province">
+            <input id="province" list="province-list" required>
+            <datalist id="province-list">
               <option>Select a province</option>
               <option>Alberta</option>
               <option>British Columbia</option>
@@ -100,7 +105,7 @@
               <option>Québec</option>
               <option>Saskatchewan</option>
               <option>Yukon</option>
-            </select>
+            </datalist>
           </div>
 
           <div class="">
@@ -149,9 +154,8 @@
           <label for="plant">Plant identification</label>
           <input type="checkbox" id="event" name="event">
           <label for="event">Special event planning</label>
-          <input type="checkbox" id="event" name="event">
-          <label for="groups">Speaking to groups</label>
           <input type="checkbox" id="groups" name="groups">
+          <label for="groups">Speaking to groups</label>
         </fieldset>
 
         <fieldset>
@@ -191,6 +195,8 @@
       <div>
         <footer>© Tree Hugger International Organization</footer>
       </div>
+
+      <input type="hidden" name="_subject" value="Volunteer Sign-up">
 
     </div>
   </div>
