@@ -7,7 +7,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
@@ -26,29 +26,29 @@
       <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
 
         <fieldset>
-          <legend class="">Personal details</legend>
+          <legend class="unit">Personal details</legend>
 
-          <div class="">
+          <div class="unit">
             <label for="full-name">Full name</label>
             <input id="full-name" name="full-name" required>
             <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="name">What should we call you?</label>
             <input id="name" name="name" required>
             <p>What all your friends call you, e.g. “Liz”.</p>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="date">Date of birth</label>
             <input type="date" id="date" name="date" required>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="size">T-shirt Size</label>
             <select id="size" name="size">
-              <option>Select a t-shirt size</option>
+              <option value=""> Select a t-shirt size</option>
               <option>Fitted: XS</option>
               <option>Fitted: S</option>
               <option>Fitted: M</option>
@@ -62,12 +62,12 @@
             </select>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="email">Email</label>
             <input type="email" id="email" name="email">
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="number">Phone number</label>
             <input type="tel" id="number" name="number">
           </div>
@@ -75,19 +75,19 @@
         </fieldset>
 
         <fieldset>
-          <legend class="">Address</legend>
+          <legend class="unit">Address</legend>
 
-          <div class="">
+          <div class="unit">
             <label for="street">Street address</label>
             <input id="street" name="street" required>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="city">City</label>
             <input id="city" name="city" required>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="province">Province</label>
             <input id="province" list="province-list" required>
             <datalist id="province-list">
@@ -108,7 +108,7 @@
             </datalist>
           </div>
 
-          <div class="">
+          <div class="unit">
             <label for="postal">Postal code</label>
             <input id="postal" name="postal" required>
           </div>
@@ -187,7 +187,7 @@
           <textarea id="comments" name="comments" required></textarea>
         </div>
 
-        <div class="">
+        <div class="unit">
           <button class="btn" type="submit">Apply!</button>
         </div>
       </form>
