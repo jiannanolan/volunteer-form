@@ -1,4 +1,4 @@
-body {
+html {
   font-family: "Noto Serif", serif;
 }
 
@@ -6,9 +6,23 @@ header {
   background-color: #70ad55;
 }
 
+header p {
+  color: #fff;
+}
 
+h1 {
+  color: #fff;
+}
 
+fieldset {
+  border: 0;
+}
 
+input {
+  border-color: #6e8c62;
+}
 
-
-  lours: #fff, #6e8c62, #70ad55
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
